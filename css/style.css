@@ -71,6 +71,29 @@ a {
     box-sizing: border-box;
 }
 
+/****** Populaires ***********/
+.hebergements {
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hebergements-cards a {
+    display: block;
+    width: 175px
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: auto;
+}
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
