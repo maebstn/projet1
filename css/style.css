@@ -75,6 +75,7 @@ a {
 .hebergements {
     display: flex;
     flex-direction: column;
+    width: 65%
 }
 
 .hebergements-cards {
@@ -92,11 +93,6 @@ a {
 .hebergements-cards img {
     width: 100%;
     height: auto;
-}
-
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
 }
 
 /****** Populaires ***********/
